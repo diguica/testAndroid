@@ -43,6 +43,18 @@ var table = Ti.UI.createTableView({
         title : 'Scroll View',
         color: 'green',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
         module : 'ScrollView'
+    }, {
+        title : 'Scroll View',
+        color: 'green',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
+        module : 'ScrollView'
+    }, {
+        title : 'Scroll View',
+        color: 'green',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
+        module : 'ScrollView'
+    }, {
+        title : 'Scroll View',
+        color: 'green',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
+        module : 'ScrollView'
     }]
 });
 
