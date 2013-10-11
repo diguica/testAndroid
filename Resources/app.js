@@ -43,7 +43,11 @@ var table = Ti.UI.createTableView({
         title : 'Scroll View',
         color: 'orange',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
         module : 'ScrollView'
-    }]
+    },{
+        title : 'Notification',
+        color: 'blue',font: {fontFamily: 'Aller', fontSize: 28, fontWeight : 'bold'},
+         module : 'Notification'
+   }]
 });
 
 table.addEventListener('click', function(e) {
