@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="SytaskTheme" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewSytaskTheme</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonSytaskTheme</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonSytaskTheme</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerSytaskTheme</item>
+
+    <item name="android:tabWidgetStyle">@style/TabWidgetSytaskTheme</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarSytaskTheme</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarSytaskTheme</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarSytaskTheme</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigSytaskTheme</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallSytaskTheme</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleSytaskTheme</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_light</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>
