@@ -6,6 +6,8 @@ var win1 = Ti.UI.createWindow({
     color:'black'
 });
 
+Ti.API.info('---------> iniciando el proceso !!!!!');
+
 var table = Ti.UI.createTableView({
     data : [{
         title : 'Action Buttons',
@@ -75,12 +77,27 @@ var table = Ti.UI.createTableView({
         title : 'Bubbles',
         color: 'green',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
         module : 'Bubbles'
+    },
+    {
+        title : 'Push Notification',
+        color: 'green',font: {fontFamily: 'Aller', fontSize: '25dp', fontWeight : 'bold'},
+        module : 'PushNotification'
     }]
 });
 
 table.addEventListener('click', function(e) {
-    var Window = require(e.rowData.module);
-    new Window().open();
+	Ti.API.info('---------> seleccionando '+e.rowData.module); 
+   
+	if (e.rowData.module!=='PushNotification'){
+    	 var Window = require(e.rowData.module);
+    	 new Window().open();
+    }else{
+    	(function () {	
+    		require('controller').start();
+    	})();
+    	
+    }
+    
 });
 
 win1.add(table);
